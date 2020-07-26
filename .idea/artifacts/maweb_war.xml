@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="maweb:war">
+    <output-path>$PROJECT_DIR$/../maweb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>maweb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="maweb.war">
+      <element id="artifact" artifact-name="maweb:war exploded" />
+    </root>
+  </artifact>
+</component>
